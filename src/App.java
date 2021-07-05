@@ -17,7 +17,7 @@ public class App {
         int part3 = Integer.parseInt(fecha.substring(6,10));//devuelve los ultimos 4 digitos de la fecha
         int suma = part1 + part2 + part3; //calcula la suma de las 3 partes de la fecha
         int nro_suerte = 0;
-        while(suma!=0){
+        while(suma!=0)
             nro_suerte += (suma%10); //devuelve el cociente de la division entre 10
             //lo que sirve para ir sacando digito a digito los valores contenidos en suma
             //desde el ultimo hasta el primero
